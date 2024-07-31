@@ -1,0 +1,439 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Chidiya</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+    <link rel="stylesheet" href="index.css">
+</head>
+<body>
+    <section id="header">
+        <header>
+            <div class="logo">
+                <img src="https://w7.pngwing.com/pngs/705/162/png-transparent-staff-of-hermes-caduceus-as-a-symbol-of-medicine-caduceus-as-a-symbol-of-medicine-doctor-symbol-caduceus-miscellaneous-symmetry-monochrome-thumbnail.png" alt="logo">Medica</div>
+            <nav>
+                <ul>
+                        <li><a href="#">Home</a></li>
+                        <li><a href="#">About</a></li>
+                        <li><a href="#">Services</a></li>
+                        <li><a href="#">Doctors</a></li>
+                        <li><a href="#">Facilities</a></li>
+                        <li><a href="#">More</a></li>
+                </ul>
+            </nav>
+            <div class="auth-buttons">
+                <a href="#" class="sign-up">Sign Up</a>
+                <a href="#" class="sign-in">Sign In</a>
+            </div>
+        </header>
+        <section class="hero">
+            <div class="hero-text">
+                <h1>Your health companion, every step of the way.<br>Your care, our commitment.</h1>
+                <p>Medica  Hospital provides excellent service by prioritizing the safety and variety of patients.</p>
+                <div class="hero-info">
+                    <div class="info-item">
+                        <img src="https://static.vecteezy.com/system/resources/previews/034/383/357/original/medicine-clipart-flat-design-icon-isolated-on-transparent-background-3d-render-medication-and-health-concept-free-png.png" alt="Online Medication">
+                        <p>Online Medication</p>
+                    </div>
+                    <div class="info-item">
+                        <img src="https://cdn-icons-png.flaticon.com/512/6260/6260300.png" alt="Examination & Treatment">
+                        <p>Examination & Treatment</p>
+                    </div>
+                    <div class="info-item">
+                        <img src="https://png.pngtree.com/png-clipart/20220911/original/pngtree-male-doctor-avatar-icon-illustration-png-image_8537702.png" alt="Specialist Suggestion">
+                        <p>Specialist Suggestion</p>
+                    </div>
+                    <div class="info-item">
+                        <img src="https://cdn-icons-png.flaticon.com/512/12054/12054456.png" alt="Medical Support">
+                        <p>Medical Support</p>
+                    </div>
+                </div>
+            </div>  
+        </section>
+        <div class="container">
+            <div class="part">
+    
+                <label for="destination">patient name</label>
+                <br>
+                <input type="text" id="destination" value="jyoti">
+            </div>
+            
+            <div class="part">
+    
+                <label for="check-in">Check In:</label>
+                <br>
+                <input type="text" id="check-in" value="Dec 28, 2024">
+            </div>
+              
+              <div class="part">
+    
+                  <label for="check-out">Check Out:</label>
+                  <br>
+                  <input type="text" id="check-out" value="Jan 3, 2025">
+                </div>
+              
+              <div class="part guest-part">
+    
+                  <label for="guests">Location</label>
+                  <br>
+                  <input type="text" id="guests" value="sector 5 gurgoan">
+                </div>
+              <button class="search-button"><i class="fa-solid fa-magnifying-glass"></i>Book now</button>
+          </div>
+        
+    </section>
+    
+    <!-- <section id="ab">
+        <header>
+            <div class="container">
+                
+                <div class="logo">
+                    <img src="https://banner2.cleanpng.com/20171201/059/doctor-symbol-caduceus-picture-5a221ad98d00a2.5312605615121845375776.jpg"alt="logo">
+                    <h1>Medica</h1>
+                </div>
+                <nav>
+                    <ul>
+                        <li><a href="#">Home</a></li>
+                        <li><a href="#">About</a></li>
+                        <li><a href="#">Services</a></li>
+                        <li><a href="#">Doctors</a></li>
+                        <li><a href="#">Facilities</a></li>
+                        <li><a href="#">More</a></li>
+                    </ul>
+                </nav>
+                <div class="auth-buttons">
+                    <a href="#" class="sign-up">Sign Up</a>
+                    <a href="#" class="sign-in">Sign In</a>
+                </div>
+            </div>
+        </header>
+        <section class="hero">
+            <div class="container">
+                <div class="hero-content">
+                    <div class="hero-image">
+                    </div>
+                    <div class="hero-text">
+                        <h1>We Take Care Because We Care !!</h1>
+                        <p>Excellent health service for all patients who come to our hospital</p>
+                        <div class="hero-info">
+                            <div class="info-item">
+                                <img src="https://static.vecteezy.com/system/resources/previews/034/383/357/original/medicine-clipart-flat-design-icon-isolated-on-transparent-background-3d-render-medication-and-health-concept-free-png.png" alt="Online Medication">
+                                <p>Online Medication</p>
+                            </div>
+                            <div class="info-item">
+                                <img src="https://cdn-icons-png.flaticon.com/512/6260/6260300.png" alt="Examination & Treatment">
+                                <p>Examination & Treatment</p>
+                            </div>
+                            <div class="info-item">
+                                <img src="https://png.pngtree.com/png-clipart/20220911/original/pngtree-male-doctor-avatar-icon-illustration-png-image_8537702.png" alt="Specialist Suggestion">
+                                <p>Specialist Suggestion</p>
+                            </div>
+                            <div class="info-item">
+                                <img src="https://cdn-icons-png.flaticon.com/512/12054/12054456.png" alt="Medical Support">
+                                <p>Medical Support</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <footer>
+            <div class="container">
+                <div class="footer-columns">
+                    <div class="footer-column">
+                        <h3>About Us</h3>
+                        <p>Medica provides top-notch medical services with a dedicated team of professionals.</p>
+                    </div>
+                    <div class="footer-column">
+                        <h3>Contact Us</h3>
+                        <p>Email: contact@medica.com</p>
+                        <p>Phone: +123 456 7890</p>
+                    </div>
+                    <div class="footer-column">
+                        <h3>Follow Us</h3>
+                        <p>Facebook | Twitter | Instagram</p>
+                    </div>
+                </div>
+                <p>&copy; 2024 Medica. All rights reserved.</p>
+            </div>
+        </footer>
+    </section> -->
+
+    <section id="cd">
+        <div class="services">
+            <div class="service-item">
+                <img src="https://cdn-icons-png.flaticon.com/512/9733/9733540.png" alt="Medica Icon">
+                <h3>Medica Accredited</h3>
+                <p>Best safety and security with Medica Accredited.</p>
+            </div>
+            <div class="service-item">
+                <img src="https://cdn-icons-png.flaticon.com/128/11516/11516912.png" alt="Service Icon">
+                <h3>Best Service</h3>
+                <p>Provide excellent service and treatment for patients.</p>
+            </div>
+            <div class="service-item ">
+                <img src="https://cdn-icons-png.flaticon.com/512/10620/10620303.png" alt="Affordable Icon">
+                <h3>Affordable</h3>
+                <p>Treatment recommendations to the customers through.</p>
+            </div>
+            <div class="service-item">
+                <img src="https://cdn-icons-png.flaticon.com/512/2785/2785491.png" alt="Facility Icon">
+                <h3>Top Facility</h3>
+                <p>Adequate facilities to support our services.</p>
+            </div>
+        </div>
+    </section>
+
+    <section id="form">
+        <section>
+            <div class="container swiper">
+                <div class="slider">
+                    <div class="card-list swiper-wrapper">
+    
+                        <div class="card-item swiper-slide">
+                            <img class="user-img" src="https://www.marvelhospitals.in/wp-content/uploads/2022/04/cardiology.jpg"
+                                alt="img">
+                            <h2 class="username">Cardiology</h2>
+                            <p class="profession">1507 reviews</p>
+                            <button class="button-connect">More Info</button>
+                        </div>
+    
+                        <div class="card-item swiper-slide">
+                            <img class="user-img" src="https://www.drprajaktamlende.com/wp-content/uploads/2022/09/Boulder-Medical-Center-Orthopedics.png"
+                                alt="img">
+                            <h2 class="username">Orthopedics</h2>
+                            <p class="profession">1896 reviews</p>
+                            <button class="button-connect">More Info</button>
+                        </div>
+    
+                        <div class="card-item swiper-slide">
+                            <img class="user-img" src="https://img.freepik.com/premium-photo/neurology-science-hd-8k-wallpaper-stock-photographic-image_915071-53601.jpg"
+                                alt="img">
+                            <h2 class="username">Neurology</h2>
+                            <p class="profession">9852 reviews</p>
+                            <button class="button-connect">More Info</button>
+                        </div>
+    
+                        <div class="card-item swiper-slide">
+                            <img class="user-img" src="https://rkhealth.com/assets/img/Obstetrics-and-Gynaecology.jpg"
+                                alt="img">
+                            <h2 class="username">Obstetrics & Gynecology</h2>
+                            <p class="profession"> 1900 reviews</p>
+                            <button class="button-connect">More Info</button>
+                        </div>
+    
+                        <div class="card-item swiper-slide">
+                            <img class="user-img" src="https://www.aucmed.edu/sites/g/files/krcnkv361/files/styles/atge_3_2_crop_md/public/migrations/media/Coronary-Bypass-Surgery.jpg?itok=xd-BcI0X"
+                                alt="img">
+                            <h2 class="username">surgeon</h2>
+                            <p class="profession">1300 reviews</p>
+                            <button class="button-connect">More Info</button>
+                        </div>
+    
+                        <div class="card-item swiper-slide">
+                            <img class="user-img" src="https://medical.rossu.edu/sites/g/files/krcnkv261/files/styles/atge_3_2_crop_md/public/2022-04/Pediatrician.jpg?h=f9d06ff2&itok=RIN6zAjk"
+                                alt="img">
+                            <h2 class="username">Pediatrician</h2>
+                            <p class="profession"> 5490 reviews</p>
+                            <button class="button-connect">More Info</button>
+                        </div>
+    
+                        <div class="card-item swiper-slide">
+                            <img class="user-img" src="https://medicine.hennepinhealthcare.org/wp-content/uploads/2018/02/HR-Derm.jpg"
+                                alt="img">
+                            <h2 class="username">Dermatology</h2>
+                            <p class="profession">4500 reviews</p>
+                            <button class="button-connect">More Info </button>
+                        </div>
+    
+                        <div class="card-item swiper-slide">
+                            <img class="user-img" src="https://d2jx2rerrg6sh3.cloudfront.net/image-handler/picture/ophthalmologist%20eye%20exam%20-%20wavebreakmedia%20_thumb.jpg"
+                                alt="img">
+                            <h2 class="username">Ophthalmology</h2>
+                            <p class="profession">1300 reviews</p>
+                            <button class="button-connect">More Info</button>
+                        </div> 
+                    </div>
+    
+                    <div class="swiper-pagination"></div>
+                    <div class="swiper-slider-button swiper-button-prev"></div>
+                    <div class="swiper-slider-button swiper-button-next"></div>
+                </div>
+            </div>
+        </section>
+    </section>
+
+    <section id="covid">
+        <div class="container">
+            <h1>Covid-19 Test and Vaccination</h1>
+    
+            <div class="services">
+                <div class="service">
+                    <img src="https://media.npr.org/assets/img/2023/01/17/ap22024441331032-1--c7049f1f1d4327b66598525b5a4fe4b873d2b318.jpg?s=1100&c=50&f=jpeg" alt="rapid test">
+                    <h3>Rapid Test</h3>
+                    <p>Get your results quickly and easily.</p>
+                </div>
+                <div class="service">
+                    <img src="https://mail.ihealmedical.com/wp-content/uploads/2022/08/ezgif.com-gif-maker-15.webp" alt="PCR Test">
+                    <h3>PCR Test</h3>
+                    <p>The most accurate test for COVID-19.</p>
+                </div>
+                <div class="service">
+                    <img src="https://cdn.prod.website-files.com/5ee0725583610e4cccd6610d/607dc6711865ca0384808c44_image001%20(1).jpg" alt="Drive Thru Test">
+                    <h3>Drive Thru Test</h3>
+                    <p>Get tested from the comfort of your car.</p>
+                </div>
+                <div class="service">
+                    <img src="https://www.medburymedicals.com/wp-content/uploads/2021/03/vaccine.jpg" alt="Vaccination">
+                    <h3>Vaccination</h3>
+                    <p>Get vaccinated against COVID-19.</p>
+                </div>
+                <div class="service">
+                    <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ73IEebnZYL_8U82jfcIIk1h-OsmGSPuztKA&s" alt="Full MCU">
+                    <h3>Full MCU</h3>
+                    <p>Get a comprehensive check-up.</p>
+                </div>
+            </div>
+    
+            <button class="button">Register</button>
+        </div>
+    </section>
+
+    <section id="soni">
+        <div class="bc">
+            <img src="https://static.vecteezy.com/system/resources/previews/007/278/150/non_2x/dark-background-abstract-with-light-effect-vector.jpg" alt="">
+        </div>
+        <div class="content">
+            <div class="service-box">
+                <img src="https://t3.ftcdn.net/jpg/02/42/30/90/360_F_242309050_QxHLRfmtm5eRz61WxhmlUTfSIwZQQUfh.jpg" alt="Service Image 1">
+                <div class="service-text">
+                    <h3>Provide the best service for you</h3>
+                    <p>We offer a full range of specialist services, which includes one of the largest hospitals in the UK with one of London’s busiest emergency departments.</p>
+                    <a href="#">Watch Video About Us</a>
+                </div>
+            </div>
+            <div class="service-box reverse">
+                <div class="service-text">
+                    <h3>Fastest emergency departments</h3>
+                    <p>We offer a full range of specialist services, which includes one of the largest hospitals in the UK with one of London’s busiest emergency departments.</p>
+                    <a href="#">Watch Video About Us</a>
+                </div>
+                <img src="https://img.resized.co/breaking-news/eyJkYXRhIjoie1widXJsXCI6XCJodHRwczpcXFwvXFxcL2ltYWdlcy5icmVha2luZ25ld3MuaWVcXFwvcHJvZFxcXC91cGxvYWRzXFxcLzIwMjFcXFwvMDdcXFwvMjkxMTU0NThcXFwvMi41MzYzNDQ1MS1lMTYzMjM3ODI1NTE5Ny5qcGdcIixcIndpZHRoXCI6bnVsbCxcImhlaWdodFwiOjM2MCxcImRlZmF1bHRcIjpcImh0dHBzOlxcXC9cXFwvd3d3LmJyZWFraW5nbmV3cy5pZVxcXC9pbWFnZXNcXFwvbm8taW1hZ2UucG5nXCIsXCJvcHRpb25zXCI6e1wib3V0cHV0XCI6XCJqcGVnXCJ9fSIsImhhc2giOiJkMjdiMzNkYTdhYzUzNzFkNzFmMTEwNjkyMmNjZjQzMTQ1ODBhNzIyIn0=/2-53634451-e1632378255197.jpg" alt="Service Image 2">
+            </div>
+        </div>
+    </section>
+
+    <section id="bc">
+        <div class="container">
+        
+            <div class="contact-form">
+                <form action="#">
+                    <label for="name">Name</label>
+                    <input type="text" id="name" name="name" required>
+    
+                    <label for="email">Email</label>
+                    <input type="email" id="email" name="email" required>
+    
+                    <label for="phone">Phone Number</label>
+                    <input type="tel" id="phone" name="phone" required>
+    
+                    <label for="message">Message</label>
+                    <textarea id="message" name="message" rows="5" required></textarea>
+    
+                    <button type="submit">Submit</button>
+                </form>
+                </div>
+                <div class="contact-info">
+                    <h2>Contact Us !</h2>
+                    <p>For questions, technical assistance, or collaboration opportunities via the contact information provided.</p>
+                    <ul>
+                        <li><i class="fas fa-phone"></i> +123-456-7890</li>
+                        <li><i class="fas fa-envelope"></i> hello@medica.com</li>
+                        <li><i class="fas fa-map-marker-alt"></i> 123 sector 37 , gurgoan, ST 12345</li>
+                    </ul>
+                </div>
+            
+        </div> 
+    </section>
+
+    <section id="footer">
+        <footer>
+            <div class="footer-content">
+                <div class="footer-section getting-care">
+                    <h3>GETTING CARE</h3>
+                    <ul>
+                        <li><a href="#">Find a Doctor</a></li>
+                        <li><a href="#">Emergency Care</a></li>
+                        <li><a href="#">Primary Care</a></li>
+                        <li><a href="#">All Medical Services</a></li>
+                        <li><a href="#">International Services</a></li>
+                        <li><a href="#">Price Transparency</a></li>
+                        <li><a href="#">Help Paying Your Bill</a></li>
+                    </ul>
+                </div>
+                <div class="footer-section getting-involved">
+                    <h3>GETTING INVOLVED</h3>
+                    <ul>
+                        <li><a href="#">Donate</a></li>
+                        <li><a href="#">Volunteer</a></li>
+                        <li><a href="#">Join Our Team</a></li>
+                    </ul>
+                </div>
+                <div class="footer-section about-us">
+                    <h3>ABOUT US</h3>
+                    <ul>
+                        <li><a href="#">Locations & Directions</a></li>
+                        <li><a href="#">Contact Us</a></li>
+                        <li><a href="#">Contact Patient Relations</a></li>
+                        <li><a href="#">Media Resources</a></li>
+                        <li><a href="#">Accessibility Resources</a></li>
+                        <li><a href="#">Report Misconduct</a></li>
+                        <li><a href="#">Website Privacy Policy</a></li>
+                        <li><a href="#">Quality of Patient Care</a></li>
+                        <li><a href="#">Crisis Standards of Care</a></li>
+                        <li><a href="#">Our Organization</a></li>
+                    </ul>
+                </div>
+                <div class="footer-section research-education">
+                    <h3>RESEARCH AND EDUCATION</h3>
+                    <ul>
+                        <li><a href="#">Clinical Trials</a></li>
+                        <li><a href="#">UC San Francisco</a></li>
+                        <li><a href="#">Madica School of Medicine</a></li>
+                        <li><a href="#">Madica School of Nursing</a></li>
+                        <li><a href="#">Madica School of Pharmacy</a></li>
+                    </ul>
+                </div>
+                <div class="footer-section referring-physicians">
+                    <h3>REFERRING PHYSICIANS</h3>
+                    <ul>
+                        <li><a href="#">Refer a Patient</a></li>
+                        <li><a href="#">Transfer a Patient</a></li>
+                        <li><a href="#">MDLink</a></li>
+                        <li><a href="#">Request a Consultation</a></li>
+                        <li><a href="#">Physician Channel</a></li>
+                    </ul>
+                </div>
+                <div class="footer-social-icons">
+                    <a href="#"><i class="fab fa-facebook-f"></i></a>
+                    <a href="#"><i class="fab fa-twitter"></i></a>
+                    <a href="#"><i class="fab fa-youtube"></i></a>
+                    <a href="#"><i class="fab fa-instagram"></i></a>
+                    <a href="#"><i class="fab fa-linkedin-in"></i></a>
+                </div>
+            </div>
+            <hr>
+            <div class="footer-bottom">
+                <p>© 2002 - 2024. The Regents of The University of California.</p>
+                <p><a href="#">Privacy Policy</a> | <a href="#">Terms and Conditions</a> | Some stock photos, posed by model.</p>
+            </div>
+        </footer>
+    </section>
+
+
+    <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+<script src="STUDENT FORM.js"></script>
+</body>
+</html>
