@@ -1,6 +1,7 @@
 section#header{
     body {
         margin: 0;
+        padding: 0;
         font-family: Arial, sans-serif;
         /* background-color: #dbdbdb98; */
     }
@@ -23,9 +24,10 @@ section#header{
     .logo img{
         height: 40px;
     margin-right: 20px;
-    border-radius: 50%;
+    /* border-radius: 50%; */
+        max-width: 50px;
+        margin-bottom: 10px;
     }
-    
     nav ul {
         list-style: none;
         display: flex;
@@ -34,9 +36,7 @@ section#header{
         /* width: 300px; */
         margin: 0;
         padding: 0;
-    }
-    
-    
+    } 
     nav ul li {
         text-decoration: wavy;
         color: #333;
@@ -136,7 +136,7 @@ section#header{
         justify-content: space-between;
         flex-direction: row;
         align-items: center;
-        background-color: #fff;
+        background-color: white;
         padding: 20px 30px;
         border-radius: 60px;
         margin: 0 auto;
@@ -158,7 +158,7 @@ section#header{
       
       .container label {
         font-weight: 900;
-        color: #51565b;
+        color: #51565c;
         font-size: 14px;
       }
       
@@ -173,7 +173,7 @@ section#header{
       
       
       .search-button {
-        background-color: #007bff; /* Blue color */
+        background: linear-gradient(45deg, #44829a, #3e3b43);
         color: #fff;
         padding: 12px 20px;
         font-size: 16px;
@@ -187,7 +187,8 @@ section#header{
       }
       
       .search-button:hover {
-        background-color: #0056b3; 
+        background: linear-gradient(45deg ,#3e3b43, #44829a);
+        font-weight: 600
       }
     
 }
@@ -246,7 +247,7 @@ section#cd{
 }
 
  .service-item:hover {
-    background-color: #4a69bd;
+    background: linear-gradient(45deg, #3e3b43, #44829a);
 }
 }
 
@@ -331,7 +332,7 @@ section{
     transition:0.2 ease;
 }
 .slider .swiper-slider-button:hover{
-    color: #f2ca00;
+    color: #44829a;
 }
 
 @media (max-width:600px){
@@ -364,16 +365,16 @@ section{
 section#covid{
     body {
         /* background-color: #333; */
-        color: #fff;
+        color: #ffffff;
         font-family: 'Arial', sans-serif;
         display: flex;
         justify-content: center;
         align-items: center;
         height: 100vh;
         margin: 0;
-        background-image: url(https://static.vecteezy.com/system/resources/previews/007/278/150/non_2x/dark-background-abstract-with-light-effect-vector.jpg);
+        /* background-image: url(https://static.vecteezy.com/system/resources/previews/007/278/150/non_2x/dark-background-abstract-with-light-effect-vector.jpg);
         background-position: center;
-        background-size: cover;
+        background-size: cover; */
     }
 
     .container {
@@ -381,6 +382,7 @@ section#covid{
         flex-direction: column;
         align-items: center;
         text-align: center;
+        color: rgb(255, 255, 255);
     }
 
     h1 {
@@ -419,16 +421,16 @@ border: 1px solid rgba(255, 255, 255, 0.5);
 
     .service h3 {
         margin-top: 10px;
-        font-size: 1.2em;
+        font-size: 1.5em;
     }
 
     .service p {
         margin-top: 5px;
-        font-size: 0.9em;
+        font-size: 1.0em;
     }
 
     .button {
-        background-color: linear-gradient(45deg #44829a, #3e3b43 );
+        background: linear-gradient(45deg, #44829a, #3e3b43);
         color: #fff;
         padding: 15px 30px;
         border: none;
@@ -440,7 +442,8 @@ border: 1px solid rgba(255, 255, 255, 0.5);
     }
 
     .button:hover {
-        background-color: #0056b3;
+        background: linear-gradient(45deg,  #3e3b43 , #44829a);
+        font-weight: 600;
     }
 }
 
@@ -453,10 +456,11 @@ section#soni{
     }
     
     .bc{
+        background: url(https://static.vecteezy.com/system/resources/previews/007/278/150/non_2x/dark-background-abstract-with-light-effect-vector.jpg);
         position: fixed;
-        /* background-size: cover;
+        background-size: cover;
         background-position: center;
-        height: 100vh */
+        /* height: 100vh */
         top: 0;
         left: 0;
         width: 100%;
@@ -465,11 +469,11 @@ section#soni{
         overflow: hidden;
     }
     
-    #bgVideo {
+    /* #bgVideo {
         width: 100%;
         height: 100%;
         object-fit: cover;
-    }
+    } */
     
     .content {
         display: flex;
@@ -543,10 +547,10 @@ section#bc{
         align-items: center;
         height: 100vh;
         margin: 0;
-        background-image: url(https://static.vecteezy.com/system/resources/previews/007/278/150/non_2x/dark-background-abstract-with-light-effect-vector.jpg);
+        /* background-image: url(https://static.vecteezy.com/system/resources/previews/007/278/150/non_2x/dark-background-abstract-with-light-effect-vector.jpg);
         background-size: cover;
         background-position: center;
-        height: 100vh
+        height: 100vh */
     }
     section#bc{
     .container {
@@ -565,9 +569,6 @@ section#bc{
         padding: 20px;
         width: 50%;
     }
-    
-
-    
      .contact-info h2 {
         font-size: 55px;
         margin-top: 0;
@@ -591,7 +592,7 @@ section#bc{
     }
     
     .contact-form button {
-        background-color: #27acff;
+        background: linear-gradient(45deg, #44829a, #3e3b43);
         color: #ffffff;
         border: none;
         padding: 10px 20px;
@@ -600,7 +601,8 @@ section#bc{
     }
     
     .contact-form button:hover {
-        background-color: #0783ff;
+        background: linear-gradient(45deg, #3e3b43, #44829a);
+        font-weight: 600;
     }
     
     .contact-info ul {
@@ -616,7 +618,8 @@ section#bc{
     
     .contact-info i {
         margin-right: 10px;
-        color: #27acff;
+        color: #44829a;
+        font-size: 25px;
     }
     
 }
@@ -635,17 +638,17 @@ section#footer{
         padding: 40px 0;
         position: relative;
         font-size: 14px;
-        background-image: url(https://static.vecteezy.com/system/resources/previews/007/278/150/non_2x/dark-background-abstract-with-light-effect-vector.jpg);
+        /* background-image: url(https://static.vecteezy.com/system/resources/previews/007/278/150/non_2x/dark-background-abstract-with-light-effect-vector.jpg);
         background-size: cover;
         background-position: center;
-        height: 100vh
+        height: 100vh */
     }
     
     .footer-content {
         display: grid;
         grid-template-columns: repeat(5, 1fr);
         gap: 20px;
-        padding: 0 50px;
+        padding: 10px 50px;
     }
     
     .footer-section {
@@ -654,9 +657,9 @@ section#footer{
     }
     
     .footer-section h3 {
-        font-size: 20px;
-        margin-bottom: 20px;
-        color: #ffcc00;
+        font-size: 25px;
+        margin-bottom: 30px;
+        color: #44829a
     }
     
     .footer-section ul {
@@ -678,7 +681,7 @@ section#footer{
     
     .footer-section ul li a:hover {
         text-decoration: underline;
-        color: #ffcc00;
+        color:  #44829a
     }
     
     .footer-social-icons {
@@ -697,7 +700,7 @@ section#footer{
     }
     
     .footer-social-icons a:hover {
-        color: #ffcc00;
+        color: #44829a;
     }
     
     hr {
@@ -719,7 +722,7 @@ section#footer{
     }
     
     .footer-bottom a {
-        color: #ffcc00;
+        color: #44829a;
         text-decoration: none;
     }
     
